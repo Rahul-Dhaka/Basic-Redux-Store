@@ -17,7 +17,7 @@ const Counter = () => {
 
   return (
     <section>
-        <p>{count}</p>
+        <p className='dark:bg-gray-400'>{count}</p>
         <div>
             <button onClick={()=> dispatch(increment())}>+</button>
             <button onClick={()=> dispatch(decrement())}>-</button>
